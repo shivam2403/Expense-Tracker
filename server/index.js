@@ -9,6 +9,14 @@ const session = require('express-session');
 const cors=require('cors');
 
 
+app.use(cors(
+    {
+        origin: [""],
+        methods: ["POST","GET"],
+        credentials: true
+    }
+));
+
 app.use(express.json());
 app.use(cors());
 dotenv.config();
