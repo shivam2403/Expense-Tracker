@@ -1,0 +1,129 @@
+.expense{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.e_wrap{
+    width: 100%;
+    padding: 30px;
+}
+
+.e_ul{
+    display: flex;
+    border: 2px solid purple;
+    width: 90%;
+    margin: 20px 0;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+}
+
+.e_li{
+    flex: 1;
+    margin: 20px 0;
+}
+
+.e_ul:hover{
+    background-color: purple;
+    color: white;
+}
+
+.e_ul_sp{
+    display: flex;
+    width: 90%;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 10px;
+}
+
+.e_mid{
+    margin-top: 20px;
+}
+
+.e_top{
+    position: relative;
+    font-size: 20px;
+}
+
+
+.e_top button{
+    position: absolute;
+    right: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid purple;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.e_top button:hover{
+    background-color: purple;
+    color: white;
+    transition:0.3s ease-in-out;
+    border: 2px solid purple;
+}
+
+.e_form_wrap{
+    width: 50%;
+    height: 70vh;
+    align-self: center;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 130px;
+}
+
+.e_form_wrap span{
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    padding: 5px;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+
+.e_form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.e_input{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+.e_btn{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: purple;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.e_btn:hover{
+    background-color: rgb(168, 4, 168);
+}

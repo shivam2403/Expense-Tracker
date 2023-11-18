@@ -1,0 +1,68 @@
+.home{
+    overflow: hidden;
+    box-sizing: border-box;
+}   
+
+.h_wrap{
+    /* height: calc(100vh - 50px); */
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.h_top{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.h_card{
+    width: 250px;
+    height: 300px;
+    border: 2px solid lightpink;
+    border-radius: 10px;
+    color: white;
+}
+
+.h_card h2{
+    width: 100%;
+    padding: 10px 0;
+    background-color: purple;
+    text-align: center;
+}
+
+.h_card div{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    color: lightgreen;
+}
+
+
+@media (max-width: 1076px) {
+  .h_wrap{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h_top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 40px;
+  }
+
+  .h_bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .h_card{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+

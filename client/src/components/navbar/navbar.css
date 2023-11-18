@@ -1,0 +1,68 @@
+.navbar{
+    height: 50px;
+    background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.n_wrap{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.n_left{
+    gap: 40px;
+}
+
+.n_logo{
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.n_li{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.n_ul{
+    display: flex;
+    align-items: center;
+}
+
+.n_right{
+    gap: 20px;
+}
+
+.n_btn{
+    cursor: pointer;
+    background-color: rgba(109, 105, 105, 0.83);
+    border: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+@media (max-width: 520px){
+    .n_ul{
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 1076px) {
+    
+}
+
+  

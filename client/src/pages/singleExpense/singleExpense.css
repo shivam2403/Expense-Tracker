@@ -1,0 +1,158 @@
+.se{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.se_wrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.se_form_wrap{
+    width: 50%;
+    background: #E0EAFC;
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    border-radius: 10px;
+}
+
+.se_form{
+    padding: 50px;
+}
+
+.se_ul{
+    gap: 40px;
+}
+
+.se_li h2{
+    flex: 1;
+}
+
+.se_top{
+    width: 90%;
+}
+
+.se_icons{
+    display: flex;
+    gap: 20px;
+}
+
+.se_icon{
+    font-size: 30px;
+    cursor: pointer;
+
+    &:first-child{
+        color: skyblue;
+    }
+    &:last-child{
+        color: red;
+    }
+}
+
+
+.se_form_wrap2{
+    width: 50%;
+    height: 70vh;
+    align-self: center;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 130px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    gap: 60px;
+}
+
+.se_form_wrap3{
+    width: 30%;
+    height: 20vh;
+    align-self: center;
+    background-color: white;
+    border: 2px solid purple;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 300px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    gap: 20px;
+
+}
+
+.se_form_wrap3_span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.se_form_wrap2 span{
+    position: absolute;
+    top: 1px;
+    right: 4px;
+    padding: 5px;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+}
+
+.se_form2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.se_input2{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid black;
+}
+
+.se_btn2{
+    padding: 10px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: purple;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+.se_btn2:hover{
+    background-color: rgb(168, 4, 168);
+}
+
+.se_btns{
+    display: flex;
+    gap: 30px;
+
+}
+
+.se_btn{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    width: 60px;
+}

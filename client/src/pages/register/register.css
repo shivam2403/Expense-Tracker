@@ -1,0 +1,82 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.r_wrap{
+    display: flex;
+    width: 50%;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.r_left{
+    flex: 1;
+    height: 100%;
+}
+
+.r_logo{
+    width: 100%;
+    height: 99%;
+    object-fit: cover;
+}
+
+.r_right{
+    flex: 1;
+    height: 500px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,119,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r_form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 20px;
+}
+
+.r_input{
+    font-size: 16px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.r_btn{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(31, 236, 31);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.r_form span{
+    text-align: center;
+    color: white;
+}
+
+.r_sgn{
+    background-color: rgb(6, 160, 255);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width: max-content;
+    align-self: center;
+    text-decoration: none;
+}
